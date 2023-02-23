@@ -1,0 +1,7 @@
+a=matrix(c(1:16), nrow = 4, byrow = TRUE)
+print(a)
+result=which(a==max(a), arr.ind = TRUE)
+print(result)
+max(a)
+result=which(a==min(a), arr.ind = TRUE)
+print(result)

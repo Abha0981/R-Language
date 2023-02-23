@@ -1,0 +1,7 @@
+a<-c('hello','world','time')
+print(a)
+b<-c('time','school','college')
+print(b)
+print("Merge two lists")
+d<-c(a,b)
+print(d)

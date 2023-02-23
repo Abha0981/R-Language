@@ -1,0 +1,10 @@
+x <- c(1:4, NA, 6:7, NA)
+print(x)
+mean(x)
+mean(x, na.rm = TRUE)
+x[is.na(x)] <- mean(x, na.rm = TRUE)
+round(x,3)
+df <- data.frame(col1 = c(1:3, 99), col2 = c(2.3, 4.5, 99, 3.2))
+print(df)
+df[df == 99] <- NA 
+print(df)

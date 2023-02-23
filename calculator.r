@@ -1,0 +1,19 @@
+add<-function(x,y){
+  return(x+y)
+}
+sub<-function(x,y){
+  return(x-y)
+}
+mul<-function(x,y){
+  return(x*y)
+}
+div<-function(x,y){
+  return(x/y)
+}
+x<-3
+y<-2
+
+print(paste("addition",x,"and",y,"=",add(x,y)))
+print(paste("subtraction",x,"and",y,"=",sub(x,y)))
+print(paste("multiplication",x,"and",y,"=",mul(x,y)))
+print(paste("division",x,"and",y,"=",div(x,y)))

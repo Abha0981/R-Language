@@ -1,0 +1,1 @@
+V <- gl(3,4,labels = c("A","B","F"),ordered = FALSE)
